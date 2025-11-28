@@ -63,7 +63,35 @@
     font-size: 0.85rem;
     color: #777;
   }
+
+  /* --- добавили для фото и кнопки --- */
+
+  .avatar {
+    width: 140px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 1.5rem;
+  }
+
+  .button-resume {
+    display: inline-block;
+    padding: 10px 18px;
+    background: #6c5ce7;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 0.5rem;
+  }
+
+  .button-resume:hover {
+    opacity: 0.9;
+  }
 </style>
+
+<p align="center">
+  <img src="me.jpg" alt="Моё фото" class="avatar">
+</p>
 
 # Твоё имя
 
@@ -109,6 +137,14 @@
 </div>
 
 (замени на свои теги)
+
+## Резюме
+
+<p>
+  <a href="resume.pdf" class="button-resume">
+    Скачать резюме (PDF)
+  </a>
+</p>
 
 ## Контакты
 
